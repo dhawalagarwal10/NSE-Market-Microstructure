@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+env/
+.venv/
+
+# AWS credentials - never commit these
+.aws/
+credentials
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local config files that might have keys
+config.py
+secrets.py
+*.cfg
+
+# Logs
+*.log
+
+# Metabase local database
+metabase.db/
+metabase.db.mv.db
+metabase.db.trace.db
